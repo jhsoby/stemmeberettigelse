@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="utf-8" />
+    <title>Stemmeberettiget?</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+	<h2>Sjekk stemmeberettigelse ved valg</h2>
+    <form method="GET" action="./">
+        <table>
+            <tr>
+                <td>
+                    Brukernavn:
+                </td>
+                <td>
+                    <input type="text" name="user" value="{{ uname }}" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Valg:
+                </td>
+                <td>
+                    {{ event_name }}
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Sjekk" />
+    </form>
+    {{ results | safe }}
+
+    <div id="footer">
+        Dette verktøyet er skrevet av <a href="//no.wikipedia.org/wiki/Bruker:Danmichaelo">Danmichaelo</a>, basert på ideer fra <a href="//toolserver.org/~pathoschild/accounteligibility/">AccountEligibility</a>, og er utgitt med <a href="./?show=source">åpen kildekode</a>, tilgjengelig under <a href="http://creativecommons.org/licenses/by/3.0/">CC-BY 3.0</a>.
+    </div>
+</body>
+</html>
