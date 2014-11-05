@@ -71,7 +71,7 @@ events = {
         ]
     },
     3: {
-        'name': u'Åremålsvalg 1. pulje 2014',
+        'name': u'Åremålsvalg 3. pulje 2014',
         'url': '//no.wikipedia.org/wiki/Wikipedia:Administratorer/kandidater/2014-05-15',
         'reqs': [
             ['edits_total', 200],
@@ -81,6 +81,32 @@ events = {
         ],
         'extra_reqs': [
             u'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2014 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+        ]
+    },
+    4: {
+        'name': u'Åremålsvalg 4. pulje 2014',
+        'url': '//no.wikipedia.org/wiki/Wikipedia:Administratorer/kandidater/2014-11-15',
+        'reqs': [
+            ['edits_total', 200],
+            ['edits_between', 20140914220000, 20141114230000, 30],
+            ['registration_before', 20140914220000],
+            ['has_not_role', 'bot']
+        ],
+        'extra_reqs': [
+            u'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. september til 15. november 2014 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+        ]
+    },
+    5: {
+        'name': u'Åremålsvalg 1. pulje 2015',
+        'url': '//no.wikipedia.org/wiki/Wikipedia:Administratorer/kandidater/2015-05-15',
+        'reqs': [
+            ['edits_total', 200],
+            ['edits_between', 20150314230000, 20150514220000, 30],
+            ['registration_before', 20150314230000],
+            ['has_not_role', 'bot']
+        ],
+        'extra_reqs': [
+            u'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2015 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
         ]
     }
 }
@@ -100,7 +126,7 @@ def show_index():
 
     #start_response('200 OK', [('Content-Type', 'text/html')])
     uname = request.args.get('user', '')
-    event = int(request.args.get('event', 3))
+    event = int(request.args.get('event', 4))
     event = events[event]
 
     osl = pytz.timezone('Europe/Oslo')
