@@ -126,6 +126,8 @@ def show_index():
 
     #start_response('200 OK', [('Content-Type', 'text/html')])
     uname = request.args.get('user', '')
+    if len(uname) > 1:
+        uname = uname[0].upper() + uname[1:]
     event = int(request.args.get('event', 4))
     event = events[event]
 
