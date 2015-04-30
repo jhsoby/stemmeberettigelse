@@ -108,7 +108,20 @@ events = {
         'extra_reqs': [
             u'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2015 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
         ]
-    }
+    },
+    6: {
+        'name': u'Åremålsvalg 2. pulje 2015',
+        'url': '//no.wikipedia.org/wiki/Wikipedia:Administratorer/kandidater/2015-11-15',
+        'reqs': [
+            ['edits_total', 200],
+            ['edits_between', 20150914220000, 20151114230000, 30],
+            ['registration_before', 20150914220000],
+            ['has_not_role', 'bot']
+        ],
+        'extra_reqs': [
+            u'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. september til 15. november 2015 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+        ]
+    },
 }
 
 
@@ -128,7 +141,7 @@ def show_index():
     uname = request.args.get('user', '')
     if len(uname) > 1:
         uname = uname[0].upper() + uname[1:]
-    event = int(request.args.get('event', 4))
+    event = int(request.args.get('event', 5))
     event = events[event]
 
     osl = pytz.timezone('Europe/Oslo')
