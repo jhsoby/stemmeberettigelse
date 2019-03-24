@@ -1,10 +1,3 @@
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import unicode_literals
-
-import sys
-sys.path.insert(0, '/data/project/stemmeberettigelse/ENV/lib/python2.7/site-packages/')
-
 from flup.server.fcgi import WSGIServer
 from .app import app
 

@@ -1,4 +1,5 @@
 pytz
-oursql
 flask
 flup
+PyMySQL
+python-dotenv
