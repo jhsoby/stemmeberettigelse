@@ -285,7 +285,7 @@ def show_index():
             for req in event['reqs']:
 
                 if req[0] == 'edits_between':
-                    cur.execute('SELECT COUNT(rev_id) FROM revision WHERE rev_user_text=%s AND rev_timestamp BETWEEN %s AND %s', [uname, req[1], req[2]])
+                    cur.execute('SELECT COUNT(*) FROM revision, actor WHERE revision.rev_actor = actor.actor_id AND actor.actor_name = %s AND revision.rev_timestamp BETWEEN %s AND %s', [uname, req[1], req[2]])
                     usum = int(cur.fetchone()[0])
                     d0 = pytz.utc.localize(datetime.datetime.strptime(str(req[1]), '%Y%m%d%H%M%S')).astimezone(osl).strftime('%d. %B %Y')
                     d1 = pytz.utc.localize(datetime.datetime.strptime(str(req[2]), '%Y%m%d%H%M%S')).astimezone(osl).strftime('%d. %B %Y')
