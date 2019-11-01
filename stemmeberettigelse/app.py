@@ -211,6 +211,32 @@ events = {
             'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2019 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
         ]
     },
+    14: {
+        'name': 'Åremålsvalg 2. pulje 2019',
+        'url': '//no.wikipedia.org/wiki/Wikipedia:Administratorer/kandidater/2019-11-15',
+        'reqs': [
+            ['edits_total', 200],
+            ['edits_between', 20190914220000, 20191114230000, 30],
+            ['registration_before', 20190914220000],
+            ['has_not_role', 'bot']
+        ],
+        'extra_reqs': [
+            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. september til 15. november 2019 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+        ]
+    },
+    15: {
+        'name': 'Åremålsvalg 1. pulje 2020',
+        'url': '//no.wikipedia.org/wiki/Wikipedia:Administratorer/kandidater/2020-05-15',
+        'reqs': [
+            ['edits_total', 200],
+            ['edits_between', 20200314230000, 20200514220000, 30],
+            ['registration_before', 20200314230000],
+            ['has_not_role', 'bot']
+        ],
+        'extra_reqs': [
+            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2020 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+        ]
+    },
 }
 
 
@@ -230,7 +256,7 @@ def show_index():
     uname = request.args.get('user', '')
     if len(uname) > 1:
         uname = uname[0].upper() + uname[1:]
-    event = int(request.args.get('event', 13))
+    event = int(request.args.get('event', 14))
     event = events[event]
 
     osl = pytz.timezone('Europe/Oslo')
