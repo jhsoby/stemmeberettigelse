@@ -39,7 +39,7 @@ events = {
             ['has_not_role', 'bot']
         ],
         'extra_reqs': [
-            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 14. september til 15. november 2012 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 14. september til 15. november 2012 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokkeringslogg</a>)'
         ]
     },
     1: {
@@ -52,7 +52,7 @@ events = {
             ['has_not_role', 'bot']
         ],
         'extra_reqs': [
-            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2013 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2013 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokkeringslogg</a>)'
         ]
     },
     2: {
@@ -65,7 +65,7 @@ events = {
             ['has_not_role', 'bot']
         ],
         'extra_reqs': [
-            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. september til 15. november 2013 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. september til 15. november 2013 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokkeringslogg</a>)'
         ]
     },
     3: {
@@ -78,7 +78,7 @@ events = {
             ['has_not_role', 'bot']
         ],
         'extra_reqs': [
-            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2014 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2014 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokkeringslogg</a>)'
         ]
     },
     4: {
@@ -91,7 +91,7 @@ events = {
             ['has_not_role', 'bot']
         ],
         'extra_reqs': [
-            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. september til 15. november 2014 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. september til 15. november 2014 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokkeringslogg</a>)'
         ]
     },
     5: {
@@ -104,7 +104,7 @@ events = {
             ['has_not_role', 'bot']
         ],
         'extra_reqs': [
-            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2015 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2015 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokkeringslogg</a>)'
         ]
     },
     6: {
@@ -117,7 +117,7 @@ events = {
             ['has_not_role', 'bot']
         ],
         'extra_reqs': [
-            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. september til 15. november 2015 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. september til 15. november 2015 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokkeringslogg</a>)'
         ]
     },
     7: {
@@ -130,7 +130,7 @@ events = {
             ['has_not_role', 'bot']
         ],
         'extra_reqs': [
-            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2016 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2016 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokkeringslogg</a>)'
         ]
     },
     8: {
@@ -143,7 +143,7 @@ events = {
             ['has_not_role', 'bot']
         ],
         'extra_reqs': [
-            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. september til 15. november 2016 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. september til 15. november 2016 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokkeringslogg</a>)'
         ]
     },
     9: {
@@ -156,7 +156,7 @@ events = {
             ['has_not_role', 'bot']
         ],
         'extra_reqs': [
-            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2017 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2017 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokkeringslogg</a>)'
         ]
     },
     10: {
@@ -169,7 +169,7 @@ events = {
             ['has_not_role', 'bot']
         ],
         'extra_reqs': [
-            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. september til 15. november 2017 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. september til 15. november 2017 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokkeringslogg</a>)'
         ]
     },
     11: {
@@ -182,7 +182,7 @@ events = {
             ['has_not_role', 'bot']
         ],
         'extra_reqs': [
-            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2018 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2018 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokkeringslogg</a>)'
         ]
     },
     12: {
@@ -195,7 +195,7 @@ events = {
             ['has_not_role', 'bot']
         ],
         'extra_reqs': [
-            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. september til 15. november 2018 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. september til 15. november 2018 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokkeringslogg</a>)'
         ]
     },
     13: {
@@ -208,7 +208,7 @@ events = {
             ['has_not_role', 'bot']
         ],
         'extra_reqs': [
-            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2019 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2019 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokkeringslogg</a>)'
         ]
     },
     14: {
@@ -221,7 +221,7 @@ events = {
             ['has_not_role', 'bot']
         ],
         'extra_reqs': [
-            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. september til 15. november 2019 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. september til 15. november 2019 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokkeringslogg</a>)'
         ]
     },
     15: {
@@ -234,7 +234,20 @@ events = {
             ['has_not_role', 'bot']
         ],
         'extra_reqs': [
-            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2020 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2020 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokkeringslogg</a>)'
+        ]
+    },
+    16: {
+        'name': 'Åremålsvalg 2. pulje 2020',
+        'url': '//no.wikipedia.org/wiki/Wikipedia:Administratorer/kandidater/2020-11-15',
+        'reqs': [
+            ['edits_total', 200],
+            ['edits_between', 20200914220000, 20201114230000, 30],
+            ['registration_before', 20200914220000],
+            ['has_not_role', 'bot']
+        ],
+        'extra_reqs': [
+            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. september til 15. november 2020 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokkeringslogg</a>)'
         ]
     },
 }
