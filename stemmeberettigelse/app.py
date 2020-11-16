@@ -237,6 +237,19 @@ events = {
             'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2020 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
         ]
     },
+    16: {
+        'name': 'Åremålsvalg 2. pulje 2020',
+        'url': '//no.wikipedia.org/wiki/Wikipedia:Administratorer/kandidater/2020-11-15',
+        'reqs': [
+            ['edits_total', 200],
+            ['edits_between', 20200914220000, 20201114230000, 30],
+            ['registration_before', 20200914220000],
+            ['has_not_role', 'bot']
+        ],
+        'extra_reqs': [
+            'brukeren ikke har vært blokkert i mer enn to dager i perioden fra og med 15. mars til 15. mai 2020 (<a href="//no.wikipedia.org/w/index.php?title=Spesial%3ALogg&type=block&user=&page=Bruker%3A{USER}">sjekk blokklogg</a>)'
+        ]
+    },
 }
 
 
